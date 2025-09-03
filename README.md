@@ -1,6 +1,7 @@
                                     Copilot Like Chatbot
                                     
-Now, I create a sample chatbot that mimic copilot
+                                    
+I create a chatbot that mimic like copilot
 
  In edge, the copilot analyze the current opening tab on the web page and give summaries of that page.
  These chatbot mainly focused on analysing dataset( eg; Shipment, Sales). The web pages shows limited records but this chatbot analyze full dataset by using API URL 
