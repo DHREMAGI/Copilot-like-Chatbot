@@ -18,8 +18,8 @@ TECHNOLOGY USED;
 
 
 RUN MODULE:
-   Step !: Store the dataset (sales.json and shipments.json) under the folder name "data"
-   Step 2> Save your api key unser the .env file like (API_key+)
+   Step !: Store the dataset (sales.json and shipments.json) under the folder name "data" and store style.css and script.js under the folder "static"
+   Step 2: Save your api key unser the .env file like (API_key+)
    step 3 : create virtual environment and activate that
    Step 4: install required libraries using "pip install -r requirements.txt"
    Step 5: Ru main.py as uvicorn main:app --reload
