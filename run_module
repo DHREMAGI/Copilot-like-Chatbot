@@ -1,0 +1,36 @@
+      FRESA CHATBOT FOR MULTIPLE TABLE ANALYSIS AND ANSWERING 
+
+1. TECHNOLOGIES USED
+     
+       python 3.13.7
+       Visual Studio Code
+
+2. CREATE VIRTUAL ENVIRONMENT 
+  
+         step 1: open vs code and open project folder
+         step 2: open terminal in vs code
+         step 3: create virtual environment using command "python -m venv venv"
+         step 4: activate virtual environment using command "venv\Scripts\activate"
+
+3. INSTALL REQUIRED PACKAGES AND RUN THE APPLICATION
+         step 1: install required packages using command "pip install -r requirements.txt"
+
+4. HOW TO RUN THE APPLICATION
+         step 1: run the application using command "uvicorn main:app --reload"
+         step 2: open browser and go to "http://127.0.0.1:8000/"
+
+5. HOW TO RUN IN POSTMAN
+         step 1: open postman
+         step 2: Get Data
+            Method: Get
+            URL:  http://127.0.0.1:8000/get_data
+        step 3: Query Data
+            Method: Post
+            URL:  http://127.0.0.1:8000/query
+            Body → raw → JSON:
+
+            {
+                "dataset": "shipments",
+                "query": "give shipment details where status=pending",
+                "chart_type": "bar"
+            }

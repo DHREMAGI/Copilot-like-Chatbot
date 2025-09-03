@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+numpy
+openai
+python-dotenv
+sentence-transformers
+faiss-cpu
+matplotlib
